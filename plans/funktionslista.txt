@@ -1,0 +1,176 @@
+index.php
+-loginUser(username, password){
+prepare and execute SELECT query
+compare passwords
+if(password == worker_password){
+return array;}
+else{
+return "ERROR";
+}}
+
+-sanitizeInput(){
+$userInput = trim($userInput);
+$userInput = stripslashes($userInput);
+$userInput = htmlspecialchars($userInput);
+return $userInput;
+}
+
+
+mechanic.php
+-selectActiveProjects(){
+prepare and execute SELECT query
+return array;
+}
+
+-populateProjectQueueField(){
+run foreach loop on previous query results
+}
+
+
+allCustomers.php
+-selectAllCustomers(){
+prepare and execute SELECT query
+return array;
+}
+
+-populateCustomerField(){
+run foreach loop on selectAllCustomers query results
+}
+
+-insertNewCustomer(){
+prepare and execute INSERT query
+}
+
+-updateCustomer(customerID){
+prepare and execute UPDATE query WHERE customerID == project_customer_id
+}
+
+-sanitizeInput(){
+$userInput = trim($userInput);
+$userInput = stripslashes($userInput);
+$userInput = htmlspecialchars($userInput);
+return $userInput;
+}
+
+
+allCars.php
+-selectAllCars(){
+prepare and execute SELECT query
+return array;
+}
+
+-populateCarField(){
+run foreach loop on selectAllCars query results
+}
+
+-insertNewCar(){
+prepare and execute INSERT query
+}
+
+-updateCar(carID){
+prepare and execute UPDATE query WHERE carID = project_car_id
+}
+
+-carServiceHistory(carID){
+prepare and execute SELECT query
+}
+
+-sanitizeInput(){
+$userInput = trim($userInput);
+$userInput = stripslashes($userInput);
+$userInput = htmlspecialchars($userInput);
+return $userInput;
+}
+
+
+newProject.php
+
+-insertNewCustomer(){
+prepare and execute INSERT query
+}
+
+-insertNewCar(){
+prepare and execute INSERT query
+}
+
+-insertNewProject(){
+prepare and execute INSERT query
+}
+
+-sanitizeInput(){
+$userInput = trim($userInput);
+$userInput = stripslashes($userInput);
+$userInput = htmlspecialchars($userInput);
+return $userInput;
+}
+
+
+workHours.php
+
+-updateHours(currentWorker){
+prepare and execute UPDATE query WHERE worker_hours = currentWorker
+}
+
+-sanitizeInput(){
+$userInput = trim($userInput);
+$userInput = stripslashes($userInput);
+$userInput = htmlspecialchars($userInput);
+return $userInput;
+}
+
+
+accounting.php
+
+-selectAllBills(){
+prepare and execute SELECT query
+return array;
+}
+
+-populateBillField(){
+run foreach loop on selectAllBills results
+}
+
+insertNewBill(){
+prepare and execute INSERT query
+}
+
+updateBillStatus(){
+prepare and execute UPDATE query
+}
+
+-sanitizeInput(){
+$userInput = trim($userInput);
+$userInput = stripslashes($userInput);
+$userInput = htmlspecialchars($userInput);
+return $userInput;
+}
+
+
+boss.php
+
+-selectAllWorkers(){
+prepare and execute SELECT query
+}
+
+-populateWorkerField(){
+run foreach loop for selectAllWorkers results
+}
+
+
+register.php
+
+-registerUser(){
+prepare and execute INSERT query
+}
+
+
+
+
+
+
+
+
+
+
+
+
