@@ -1,8 +1,14 @@
-<?php
-session_start();
-$_SESSION['test'] = "Sessionen är igång";
+<?php 
+
+if(isset($_SESSION)) { 
+    
+}
+else {
+    session_start();
+}
+
 $host = '127.0.0.1';
-$db   = '2024_av_puzzle';
+$db   = '2024_powerol';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
@@ -15,3 +21,4 @@ $options = [
 ];
 $pdo = new PDO($dsn, $user, $pass, $options);
 
+?>

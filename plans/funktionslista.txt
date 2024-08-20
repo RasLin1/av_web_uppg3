@@ -26,6 +26,15 @@ return array;
 run foreach loop on previous query results
 }
 
+-checkUserRole(){
+if(roleValue >= requiredValue){
+return TRUE;
+}
+else{
+return False;
+}
+}
+
 
 allCustomers.php
 -selectAllCustomers(){
@@ -121,6 +130,15 @@ return $userInput;
 
 accounting.php
 
+-checkUserRole(){
+if(roleValue >= requiredValue){
+return TRUE;
+}
+else{
+return False;
+}
+}
+
 -selectAllBills(){
 prepare and execute SELECT query
 return array;
@@ -147,6 +165,16 @@ return $userInput;
 
 
 boss.php
+
+-checkUserRole(){
+if(roleValue >= requiredValue){
+return TRUE;
+}
+else{
+return False;
+}
+}
+
 
 -selectAllWorkers(){
 prepare and execute SELECT query
