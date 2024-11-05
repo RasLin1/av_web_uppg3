@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+<car><license>TXI-756</license><brand>Skoda</brand><model>Octavia</model><id>10</id></car>
+<car><license>YVU-860</license><brand>Honda</brand><model>Civic</model><id>12</id></car><car><license>LUZ-951</license><brand>Volkswagen</brand><model>Golf</model><id>13</id></car></cars>

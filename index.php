@@ -20,9 +20,18 @@ if(isset($_POST['login'])){
         </div>";
     }
 }
+
+if(isset($_POST['logout'])){
+    session_unset();
+    session_destroy();
+    header("Location: index.php");
+    exit();
+}
+
 // $_POST['uname'], $_POST['u_pass']
 ?>
 
+<!--
 <div class="container"><br>
     <div class="row">
         <form method="POST" action="mechanic.php" >
@@ -40,6 +49,7 @@ if(isset($_POST['login'])){
         </form>
     </div><br><br>
 </div>
+-->
 
 <div class="container" id="loginPage">
     <div class="row">
@@ -53,8 +63,8 @@ if(isset($_POST['login'])){
             <input type="submit" name="login" value="Login">
         </form><br>
 
-        <form action="register.php">
-            <input type="submit" value="Register"></input>
+        <form method="POST" action="">
+            <input type="submit" name="logout" value="Logout"></input>
         </form>
     </div>
 </div>

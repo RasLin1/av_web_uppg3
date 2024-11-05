@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+<customer><firstname>Alexander</firstname><lastname>Erikson</lastname><phone>0449740434</phone><id>1</id></customer>
+<customer><firstname>Anders</firstname><lastname>Rosenqvist</lastname><phone>0409138256</phone><id>5</id></customer>
+<customer><firstname>Peter</firstname><lastname>Forsberg</lastname><phone>0501731821</phone><id>15</id></customer><customer><firstname>Tobias</firstname><lastname>Orlo</lastname><phone>0448316724</phone><id>16</id></customer></customers>
